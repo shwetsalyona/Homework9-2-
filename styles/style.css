@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-body{
+body {
     background-color: #E5E5E5;
     color: white;
 }
@@ -18,39 +18,80 @@ section {
     padding: 130px 135px;
 }
 .wrapper {
-    width: 80%;
+    margin: 0 auto;
+}
+.table {
+    font-size: 22px;
+    border: 1px solid white;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    padding: 27px 0;
+    text-align: center;
+    border: 1px solid white;
+}
+p:last-child {
+    color: rgba(255, 255, 255, 0.7);
+}
+p:first-child {
+    margin-bottom: 10px;
+}
+.wrapper > p {
+    margin-bottom: 37px;
+    font-size: 21px;
+}
+.wrapper > p:last-child {
+    color: white;
+    font-size: 16px;
+    margin-top: 35px;
+}
+i {
+    font-size: 42px;
 }
 .bg-blue {
     background-color: #3399CC;
+    width: 50%;
 }
 .bg-light-blue {
     background-color: #33CCCC;
+    width: 25%;
 }
 .bg-purple {
     background-color: #996699;
+    width: 25%;
 }
 .bg-red {
     background-color: #C24747;
+    width: 25%;
 }
 .bg-orange {
     background-color: #E2674A;
+    width: 25%;
 }
-.bg-blue {
-    background-color: #3399CC;
+.bg-yellow {
+    background-color: #FFCC66;
+    width: 25%;
 }
-.bg-blue {
-    background-color: #3399CC;
+.bg-light-green {
+    background-color: #99CC99;
+    width: 25%;
 }
-.bg-blue {
-    background-color: #3399CC;
+.bg-greenish {
+    background-color: #669999;
+    width: 25%;
 }
-.bg-blue {
-    background-color: #3399CC;
+.bg-pink {
+    background-color: #CC6699;
+    width: 50%;
 }
-.bg-blue {
-    background-color: #3399CC;
+.bg-green {
+    background-color: #339966;
+    width: 25%;
 }
-.bg-blue {
-    background-color: #3399CC;
+.bg-dark-purple {
+    background-color: #666699;
+    width: 100%;
 }
 
